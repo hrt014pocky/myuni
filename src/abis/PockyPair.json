@@ -1,0 +1,104 @@
+{
+  "contractName": "PockyPair",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/E/code/myuni/src/contracts/PockyPair.sol\":\"PockyPair\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/E/code/myuni/src/contracts/PockyPair.sol\":{\"keccak256\":\"0x437f30f1f2eaa0a3e9c29e817350c1f2ea5bea3e6f3813bf02c2d1c925f5f06b\",\"urls\":[\"bzz-raw://2bdfa73cfa3d7c0c732efbb9a892911bd3c9b9a32ebac2d869c62d10049f2af1\",\"dweb:/ipfs/QmXbYt7AMMXNihJXvGfoxoNo1SnmDomyb8jddZbNxWYRyt\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820cea8ca29e12d063eb4d3581675b0706d6e21bd280a1f6345fffb76190f79985f64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820cea8ca29e12d063eb4d3581675b0706d6e21bd280a1f6345fffb76190f79985f64736f6c63430005100032",
+  "sourceMap": "61:27:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:27:3;;;;;;;",
+  "deployedSourceMap": "61:27:3:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity =0.5.16;\r\n\r\ncontract PockyPair {\r\n  \r\n}",
+  "sourcePath": "E:/code/myuni/src/contracts/PockyPair.sol",
+  "ast": {
+    "absolutePath": "/E/code/myuni/src/contracts/PockyPair.sol",
+    "exportedSymbols": {
+      "PockyPair": [
+        114
+      ]
+    },
+    "id": 115,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 113,
+        "literals": [
+          "solidity",
+          "=",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 114,
+        "linearizedBaseContracts": [
+          114
+        ],
+        "name": "PockyPair",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 115,
+        "src": "61:27:3"
+      }
+    ],
+    "src": "33:55:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/E/code/myuni/src/contracts/PockyPair.sol",
+    "exportedSymbols": {
+      "PockyPair": [
+        114
+      ]
+    },
+    "id": 115,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 113,
+        "literals": [
+          "solidity",
+          "=",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 114,
+        "linearizedBaseContracts": [
+          114
+        ],
+        "name": "PockyPair",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 115,
+        "src": "61:27:3"
+      }
+    ],
+    "src": "33:55:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2022-01-02T06:56:00.221Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

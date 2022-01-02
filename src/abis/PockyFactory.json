@@ -1,0 +1,104 @@
+{
+  "contractName": "PockyFactory",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/E/code/myuni/src/contracts/PockyFactory.sol\":\"PockyFactory\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/E/code/myuni/src/contracts/PockyFactory.sol\":{\"keccak256\":\"0x4854673d7ab104f28612adc532e8ae044f0d6542be006b293cef05943e558847\",\"urls\":[\"bzz-raw://8ff5b87db730ef75514b52ed679e3a64d6f2f339f349486e408fc26f707f8b49\",\"dweb:/ipfs/QmethLHT8EFB8uBq9fu73SZqAoCtQNdCeiHkbTggii8C9r\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582030520a1d8e0a29ffe624149d3c285afe58b8c6e1556d6cbae73cb5525a3d90dc64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582030520a1d8e0a29ffe624149d3c285afe58b8c6e1556d6cbae73cb5525a3d90dc64736f6c63430005100032",
+  "sourceMap": "61:30:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;61:30:2;;;;;;;",
+  "deployedSourceMap": "61:30:2:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity =0.5.16;\r\n\r\ncontract PockyFactory {\r\n  \r\n}\r\n",
+  "sourcePath": "E:/code/myuni/src/contracts/PockyFactory.sol",
+  "ast": {
+    "absolutePath": "/E/code/myuni/src/contracts/PockyFactory.sol",
+    "exportedSymbols": {
+      "PockyFactory": [
+        111
+      ]
+    },
+    "id": 112,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 110,
+        "literals": [
+          "solidity",
+          "=",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 111,
+        "linearizedBaseContracts": [
+          111
+        ],
+        "name": "PockyFactory",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 112,
+        "src": "61:30:2"
+      }
+    ],
+    "src": "33:60:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/E/code/myuni/src/contracts/PockyFactory.sol",
+    "exportedSymbols": {
+      "PockyFactory": [
+        111
+      ]
+    },
+    "id": 112,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 110,
+        "literals": [
+          "solidity",
+          "=",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:24:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 111,
+        "linearizedBaseContracts": [
+          111
+        ],
+        "name": "PockyFactory",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 112,
+        "src": "61:30:2"
+      }
+    ],
+    "src": "33:60:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.3",
+  "updatedAt": "2022-01-02T06:56:00.216Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
