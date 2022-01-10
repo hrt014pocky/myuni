@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-01-02 22:01:33
  * @LastEditors: Szang
- * @LastEditTime: 2022-01-02 23:06:15
+ * @LastEditTime: 2022-01-08 16:12:46
  * @FilePath: \myuni\test\Factory.test.js
  */
 const PockyERC20    = artifacts.require('PockyERC20')
@@ -36,7 +36,7 @@ contract('Factory', function(accounts){
       const pair = await factory.createPair(addr0, addr1)
       const getPair = await factory.getPair(addr0, addr1)
       assert.notEqual(getPair, null, 'Pair has a correct address')
-      // console.log('pair address is ', pair)
+      console.log('pair address is ', getPair)
       // 判断工厂合约的allPairs长度是否等于1
       const length = await factory.allPairLength();
       assert.equal(length, 1, 'allPairs has one pair')

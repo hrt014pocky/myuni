@@ -7,7 +7,7 @@ contract PockyERC20 {
   string public symbol = 'PKY';
   uint8  public decimals = 18;
 
-  uint256 public totalSupply = 1000000000000000000000000;
+  uint256 public totalSupply = 0;
 
   mapping(address => uint256) public balanceOf;
   mapping(address => mapping(address => uint256)) public allowance;
@@ -17,6 +17,24 @@ contract PockyERC20 {
 
   constructor() public {
     balanceOf[msg.sender] = totalSupply;
+  }
+
+  //内部函数
+  //1. _mint
+  //2. _burn
+
+  function _mint(address _to, uint _value) internal {
+    //1. 增加totalSupply
+    //2. 增加to的balanceOf
+    totalSupply += _value;
+    balanceOf[_to] += _value;
+  }
+
+  function _burn(address _from, uint _value) internal {
+    //1. 减少totalSupply
+    //2. 减少_from的balanceOf
+    totalSupply -= _value;
+    balanceOf[_from] -= _value;
   }
 
   function approve(address _spender, uint256 _value) external returns(bool){
